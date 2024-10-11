@@ -1,1 +1,146 @@
 /* Your styles here */
+html {
+    font-size: 75%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.65;
+    font-weight: 500;
+}
+
+main {
+    background-color: #E9EDEE;
+}
+
+.alignment {
+    padding-inline: 20px;
+    padding-block: 6px;
+}
+
+header,
+footer {
+    background-color: #222F3F;
+}
+
+header img {
+    max-width: 125px;
+}
+
+nav {
+    background-color: #364759;
+    color: white;
+    font-size: 0.85em;
+    min-height: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    max-width: max-content;
+    padding-right: 7px;
+}
+
+main h3 {
+    background-color: #FF6900;
+    text-align: center;
+    color: white;
+    font-size: 0.8em;
+    margin-block: 20px;
+    padding-block: 3px;
+}
+
+.banner {
+    background-image: url('../images/bg-image.png');
+    background-position: top;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+    padding-block: 3%;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 1.8em;
+    padding-bottom: 8px;
+}
+
+article section h2 {
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+article section a {
+    font-weight: 550;
+    font-size: 0.8em;
+    margin-left: 5px;
+    text-decoration: none;
+    color: #195968;
+}
+
+article section div img {
+    display: inline-block;
+    width: 270px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 1px 0px #666;
+}
+
+a:hover,
+li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.distanceImgIn {
+    margin-inline: 16px;
+}
+
+.perfectGift {
+    margin-block: 20px;
+    background-color: white;
+    padding-block: 10px;
+    padding-inline: 20px;
+}
+
+.alignText {
+    text-align: left;
+}
+
+.spaceBottom {
+    margin-bottom: 15px;
+}
+
+article section img {
+    max-width: 100%;
+}
+
+aside {
+    background-color: #364759;
+    text-align: center;
+    min-height: 20px;
+    padding-block: 5px;
+}
+
+aside a {
+    color: white;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+    min-height: 100px;
+}
+
+footer img {
+    padding-block: 40px;
+    max-width: 150px;
+}
