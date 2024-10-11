@@ -19,11 +19,6 @@ main {
     background-color: #E9EDEE;
 }
 
-.alignment {
-    padding-inline: 20px;
-    padding-block: 6px;
-}
-
 header,
 footer {
     background-color: #222F3F;
@@ -55,16 +50,6 @@ main h3 {
     padding-block: 3px;
 }
 
-.banner {
-    background-image: url('../images/bg-image.png');
-    background-position: top;
-    background-size: 100%;
-    color: white;
-    text-align: center;
-    padding-block: 3%;
-    font-weight: bold;
-}
-
 h1 {
     font-size: 1.8em;
     padding-bottom: 8px;
@@ -85,37 +70,25 @@ article section a {
     color: #195968;
 }
 
-article section div img {
+article section div {
+    width: 100%;
+}
+
+/* article section div img {
     display: inline-block;
     width: 270px;
     height: 300px;
     border-radius: 15px;
-    box-shadow: 0px 0px 1px 0px #666;
-}
+    box-shadow: 1px 0px 2px 0px #595e649e
+} */
 
-a:hover,
-li:hover {
-    color: red;
-    cursor: pointer;
-}
-
-.distanceImgIn {
-    margin-inline: 16px;
-}
-
-.perfectGift {
-    margin-block: 20px;
-    background-color: white;
-    padding-block: 10px;
-    padding-inline: 20px;
-}
-
-.alignText {
-    text-align: left;
-}
-
-.spaceBottom {
-    margin-bottom: 15px;
+article section div img {
+    display: inline-block;
+    width: 280px;
+    height: 300px;
+    vertical-align: top;
+    border-radius: 15px;
+    box-shadow: 1px 0px 2px 0px #595e649e
 }
 
 article section img {
@@ -143,4 +116,44 @@ footer {
 footer img {
     padding-block: 40px;
     max-width: 150px;
+}
+
+a:hover,
+li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.alignment {
+    padding-inline: 20px;
+    padding-block: 6px;
+}
+
+.banner {
+    background-image: url('../images/bg-image.png');
+    background-position: top;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+    padding-block: 3%;
+    font-weight: bold;
+}
+
+.perfectGift {
+    margin-block: 20px;
+    background-color: white;
+    padding-block: 10px;
+    padding-inline: 20px;
+}
+
+.alignText {
+    text-align: left;
+}
+
+.spaceBottom {
+    margin-bottom: 15px;
+}
+
+.marginDistance {
+    margin-inline: 14px;
 }
