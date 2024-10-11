@@ -76,15 +76,17 @@ article section div {
 
 article section div img {
     display: inline-block;
-    width: 280px;
+    width: 24%;
     height: 300px;
     vertical-align: top;
+    object-fit: cover;
     border-radius: 15px;
-    box-shadow: 1px 0px 2px 0px #595e649e
+    box-shadow: 1px 0px 2px 0px #595e649e;
+    margin-right: 8px;
 }
 
 article section img {
-    max-width: 100%;
+    width: 100%;
 }
 
 aside {
@@ -144,8 +146,4 @@ li:hover {
 
 .spaceBottom {
     margin-bottom: 15px;
-}
-
-.marginDistance {
-    margin-inline: 14px;
 }
